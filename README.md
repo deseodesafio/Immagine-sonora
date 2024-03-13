@@ -33,27 +33,9 @@ git clone https://github.com/yourusername/immagine-sonora.git
 2. Open the Processing IDE and navigate to the directory where you cloned the repository.
 3. Open the Immagine Sonora `.pde` file in Processing.
 
-### Step 4: Spotify API Integration
-
-To visualize your Spotify usage data, you'll need to integrate with the Spotify API:
-
-1. Visit the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/) and log in with your Spotify account.
-2. Create a new application and note down your Client ID and Client Secret.
-3. Follow the instructions in the Immagine Sonora repository to configure your Spotify API credentials with the application.
-
 ## Usage
-
-After setting up Immagine Sonora, run the application through the Processing IDE. The program will automatically fetch your Spotify usage data and display your listening patterns divided into four parts of the day.
-
+You can run the sketch. An anonymous data file is provided which is loaded automatically in the data folder.
 Explore your music listening habits in a visually engaging way and discover patterns you might not have noticed before.
-
-## Support
-
-For support, please open an issue on the GitHub repository page.
-
-## Contributing
-
-Contributions to Immagine Sonora are welcome! If you have suggestions or improvements, feel free to fork the repository and submit a pull request.
 
 ---
 
