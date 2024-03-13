@@ -28,7 +28,7 @@ Download the latest version of Processing from the official website: [Processing
 
 1. Clone the Immagine Sonora repository to your local machine:
 
-git clone https://github.com/yourusername/immagine-sonora.git
+`git clone https://github.com/yourusername/immagine-sonora.git`
 
 2. Open the Processing IDE and navigate to the directory where you cloned the repository.
 3. Open the Immagine Sonora `.pde` file in Processing.
