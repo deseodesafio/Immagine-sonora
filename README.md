@@ -1,7 +1,8 @@
 # Immagine Sonora
 
 ## Overview
-![Preview](https://github.com/deseodesafio/Immagine-sonora/assets/157072886/e92a3ad9-9300-43bf-89eb-8ecd450dca90)
+![preview](https://github.com/deseodesafio/Immagine-sonora/assets/157072886/56071fc1-7d09-4cb5-ad4a-7feb503ecb1c)
+
 
 
 Immagine Sonora is a unique application designed to bring your Spotify listening habits to life through visual representation. Focused on illustrating the temporal aspect of your music consumption, it divides your daily listening activity into four distinct parts: morning, afternoon, evening, and night. This project is developed using Processing, a flexible software sketchbook and language for learning how to code within the context of the visual arts.
