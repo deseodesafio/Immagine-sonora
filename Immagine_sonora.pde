@@ -7,7 +7,7 @@ String[] filenames;
 String fullPath;
 PFont myFont;
 
-int personID =1;
+int personID = 1;
 String listener = " ";
 float sketchHeight ;
 float sketchWidth;
@@ -15,10 +15,10 @@ float sketchWidth;
 int n_days = 364;
 int yearToDraw = 2022;
 int dayTimeCount = 4;
-int currentTimeUnit = 1;
+int currentTimeUnit = 2;
 // 1,2 = weeks, 3,4 = months, 5,6 = quarters, 7,8 = seasons, 9,0 = years
 
-int saveCount = 2022;
+int saveCount = 1;
 boolean recording = false;
 
 int n_weeks;
@@ -79,29 +79,10 @@ void draw()
   offset = fontSize*1.9;
   offset  = height/13;
 
-  int[] fillColor= cmyk1;
+  int[] fillColor= cmyk4;
   weekColor = #000000;
   weekColor = monthColor = quarterColor = seasonColor = yearColor;
-  
-  if (personID >= 1 && personID <= 5 || personID == 21) {
-    fillColor = cmyk1;
-    listener = "Lückenhörer";
-  } else if (personID >= 6 && personID <= 10) {
-    fillColor = cmyk4 ;
-    listener = "Taktloser";
-  } else if (personID >= 11 && personID <= 15) {
-    fillColor = cmyk3 ;
-    listener = "Gewohnheitstier";
-  } else if (personID >= 16 && personID <= 17) {
-    fillColor = cmyk6 ;
-    listener = "Saisonhörer";
-  } else if (personID >= 19 && personID <= 21) {
-    fillColor = cmyk5 ;
-    listener = "Morgenmelodiker";
-  } else if (personID >= 22 && personID <= 24 || personID == 18) {
-    fillColor = cmyk2 ;
-    listener = "Nachtwandler";
-  }
+  listener = "Taktloser";
 
   if (n_days <= 182) 
   { n_seasons = 1;
@@ -183,7 +164,7 @@ void draw()
   
   if (recording)
   {
-    saveFrame ("overview_years/"+personID+"/frame_####.tiff");
+    saveFrame ("Immagine-sonora/"+personID+"/frame_####.tiff");
   }
   
 }
@@ -219,7 +200,7 @@ void keyPressed()
 {
   if (key == 's' || key == 'S')
   {
-    save("overview_years/"+ personID +"/" + saveCount++ + ".png");
+    save("Immagine_sonora/" + saveCount++ + ".png");
     println("Image saved as .tiff");
   }
 
