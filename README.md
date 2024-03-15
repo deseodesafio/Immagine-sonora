@@ -37,8 +37,8 @@ Download the latest version of Processing from the official website: [Processing
 3. Open the Immagine Sonora `.pde` file in Processing.
 
 ## Usage
-You can run the sketch. An anonymous data file is provided which is loaded automatically in the data folder.
-Explore your music listening habits in a visually engaging way and discover patterns you might not have noticed before.
+You can run the sketch to visualize music listening habits in a visually engaging way. An anonymous data file is provided and automatically loaded in the data folder.
+Explore music listening habits across different time frames, such as weeks, quarters, or the entire year. Use the arrow keys to navigate between years (left and right) and control the amount of days displayed (up and down keys) to explore patterns you might not have noticed before. 
 
 ---
 
