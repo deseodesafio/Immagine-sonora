@@ -4,10 +4,11 @@
 ![preview](https://github.com/deseodesafio/Immagine-sonora/assets/157072886/56071fc1-7d09-4cb5-ad4a-7feb503ecb1c)
 
 
+Immagine Sonora is a flexible visual system that maps temporal patterns in Spotify music streaming behaviours. It reveals when, throughout the year, people listen to music using real streaming data. While analysing the data gathered from my friends, I identified six distinct listening types: Gewohnheitstier (habitual listener), Taktloser (abrupt changes in their rhythm), Lückenhörer (fragmentary listener), Saisonhörer (seasonal listener), Morgenmelodiker (morning melodies) and Nachtwandler (shapeshifter).
+By connecting these patterns to what I knew about their lives, I uncovered intriguing correlations—such as when they met their partners, studied abroad for a semester, or experienced other musical habits that are time-related.
+The visualization represents a year as a sequence of days, with each day depicted as a rectangle divided into four color-coded time periods: morning, afternoon, evening, and night. The darker the colour the later in the day it is. The size of each segment is proportionate to the total minutes listened during that time of day. If no music was listened during a day, it remains black. Different listening types are distinguished through different colour combinations. One can see the passing of the years and switch between visualizations showing the year in weeks, months, quarters or all 365 days one below the other. 
+This project is developed using Processing, a flexible software sketchbook within the context of the visual arts.
 
-Immagine Sonora is a unique application designed to bring your Spotify listening habits to life through visual representation. Focused on illustrating the temporal aspect of your music consumption, it divides your daily listening activity into four distinct parts: morning, afternoon, evening, and night. This project is developed using Processing, a flexible software sketchbook and language for learning how to code within the context of the visual arts.
-
-Immerse yourself in the visual dynamics of your music listening patterns and gain new insights into your auditory preferences over time with Immagine Sonora.
 
 ## Prerequisites
 
